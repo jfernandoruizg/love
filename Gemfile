@@ -12,11 +12,10 @@ gem 'rails', '~> 5.1.5'
 gem 'devise'
 
 # Use postgresql as the database for Active Record
-group :doc do
 
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg', '>= 0.18', '< 2.0', group: :production
 gem 'rails_12factor','0.0.2'
-end
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
