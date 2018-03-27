@@ -14,7 +14,7 @@ gem 'devise'
 # Use postgresql as the database for Active Record
 
 gem 'pg', '>= 0.18', '< 2.0', group: :production
-gem 'rails_12factor','0.0.2'
+gem 'rails_12factor','0.0.2', group: :production
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
